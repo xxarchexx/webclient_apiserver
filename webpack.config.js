@@ -5,21 +5,21 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = { 
   
   devServer: {   
-    contentBase: path.join(__dirname, 'client/js'),    
+    contentBase: path.join(__dirname, 'js'),    
     compress: false,
     port: 9000
   },
   devtool: 'source-map',
   entry: {
-    main: './client/js/index.js'    
+    main: './js/index.js'    
   },
   plugins:[
     new webpack.LoaderOptionsPlugin({ debug: true  }),
   ],
   output:{    
     filename:  '[name].js',
-    path: __dirname + '/static',
-    publicPath: '/static/'
+    path: __dirname + '../static',
+    publicPath: '../static/'
    },
    
   module: {
