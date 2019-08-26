@@ -1,0 +1,12 @@
+export const GET_DATA = "GET_DATA";
+export const TRY_LOGIN = "TRY_LOGIN";
+export const GET_GOODS = "GET_GOODS";
+export const REQ_GOODS_CATEGORIES = "REQ_GOODS_CATEGORIES";
+const RECEIVE_CATEGORIES = "RECEIVE_CATEGORIES";
+export const GET_DATA_SUCCESS = "GET_DATA_SUCCESS";
+export const GET_GOODS_SUCCESS = "GET_GOODS_SUCCESS";
+
+
+
+
+

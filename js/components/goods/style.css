@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .formgrid {
+    height: auto;
+    width : 50%;
+  }
+  
+  .formgrid  > div {
+    margin: 0.5em;
+  }
+  .subcontainer > * {
+    display: flex;
+  }
+
+  .formgrid, .container , .subcontainer {    
+    display: flex;
+    flex-direction: column    
+  }
+
+  input, button {
+    min-width: 30%;
+    height:2.5em;
+  }
+  select {
+    min-width: 30%;
+    height:2em;
+  }
+
+   input[type="checkbox"], input[type="radio"] {
+    width: auto;
+    float: left;
+    margin: 0.5em 0.5em 0 30%;
+  }
+  
+  input[type="checkbox"] + label, input[type="radio"] + label {
+    width: auto;
+    text-align: left;
+  }
+
+  input, output, textarea, select, button {
+    clear: both;
+    float: right;
+    width: 70%;
+  }
+  
+  label {
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding: 0.25em 1em 0 0;
+  }
+
+  .item {
+    display: flex;  
+  }
